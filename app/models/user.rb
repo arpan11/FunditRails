@@ -1,7 +1,7 @@
 class User < ActiveRecord::Base
   include Rhoconnect::Resource
 
-  #partition "amit"
+  partition = "amit"
 
   def self.rhoconnect_query(partition)
     User.all
