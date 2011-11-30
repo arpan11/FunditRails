@@ -1,3 +1,5 @@
+require 'rhoconnect-rb'
+
 class User < ActiveRecord::Base
   include Rhoconnect::Resource
 
