@@ -10,6 +10,7 @@ gem 'mysql2', '< 0.3'
 gem 'rake', '~> 0.8.7'
 
 gem 'rhoconnect-rb'
+gem 'SystemTimer', '~> 1.2.3', :platforms => :ruby_18
 
 # Use unicorn as the web server
 # gem 'unicorn'
