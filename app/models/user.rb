@@ -12,11 +12,11 @@ class User < ActiveRecord::Base
   include Rhoconnect::Resource
 
   def partition
-  lambda { self.user.username }
+   :app
   end
 
   def self.rhoconnect_query(partition)
-    User.where(:username => partition).all
+    User.all
   end
 
   
