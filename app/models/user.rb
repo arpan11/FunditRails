@@ -12,7 +12,7 @@ class User < ActiveRecord::Base
   include Rhoconnect::Resource
 
   def partition
-   :app
+   "amit"
   end
 
   def self.rhoconnect_query(partition)
